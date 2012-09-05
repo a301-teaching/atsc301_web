@@ -1,0 +1,1 @@
+.. _How to think like a computer scientist: http://interactivepython.org/courselib/static/thinkcspy/index.html
