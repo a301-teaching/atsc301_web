@@ -9,7 +9,7 @@ Texts
 
 * W & H chapter 4
 
-* :ref:`stull` , Practical meteorology, Chapters 2 and 8  (will be distributed)
+* :ref:`stull` , Practical meteorology, Chapters 2 and 8
 
 
 Week by week topics
@@ -68,6 +68,9 @@ Week by week topics
   * `Day 7 quiz solution <notebooks/day7_quiz_sol.html>`_
   * Do the :ref:`modis-exercise` and read W&H 122-121
     for Monday
+  * Learning objectives:  
+    - calculate solid angle and flux given radiance, pixel size and orbit height
+    - 
 
 * Week 4  9/24 - 9/28    
 
