@@ -15,86 +15,79 @@ Texts
 Week by week topics
 -------------------
 
-* Week 1  9/5 - 9/7    
+* Week 1  9/5 - 9/7   
 
-  * Introduction, course outline, Python intro, :ref:`python resources`
-  * Assignment: install python and download (right-click and save) and execute 
-    `this notebook <notebooks/listsTuplesEtc.html>`_
-  * Reading:  `Scipy lecture notes`_ sections 1.1 and 1.2
-  * *Lecture 1 learning objective*: Run ipython notebook in the lab
-    and on your own computer
-  * *Lecture 2: learning objectives*: get comfortable with simple functions
+  * Learning objectives: get comfortable with simple functions
     and plotting in python, do a basic numerical integration using
     rectangular quadrature that demonstrates Stefan-Boltzman
-  * Scipy notes: `Scipy lecture notes`_ 1.2.5 and 1.5.3
-  * Reading: read for Monday Stull Chapter 2:36-44, `Scipy lecture notes`_ 1.5
-  * Day 2 Assignment due 5pm Monday:  use connect to hand in an ipython notebook
-    that uses numerical integration to integrate the Planck
-    function over wavelength.  Follow the instructions in
-    the `Stefan Boltzman notebook <notebooks/stefan_boltzman.html>`_
+  * Reading: read for Monday Stull Chapter 2:36-44, `Scipy lecture notes`_ 1.1, 1.2, 1.5
+  * Assignment: `Stefan Boltzman notebook <notebooks/stefan_boltzman.html>`_
 
-*  Week 2  9/10 - 9/14 
+* Week 2  9/10 - 9/14 
 
-   * Learning objectives: Demonstrate Stefan-Boltzman, Wien's law,
-     sun-earth geometry in Python
-   * Day 2 assignment due Monday 5pm -- see my solution at the bottom
-     of `stefan_boltzma notebook <notebooks/stefan_boltzman.html>`_
-   * Day 3 Assignment due Wednesday midnight: Use python to
-     demonstrate Wien's law:
-     Follow the instructions at the end of 
-     the `derivatives notebook <notebooks/derivatives.html>`_
-     (note that I've included the answer at the bottom).
-     Upload a notebook that will reproduce the answer plot.
-   * Reading:  notes, Stull Chapter 2:37
-   * Day 4 Assignment due Monday 11am:  Use the datetime
-     object to find the solar elevation angle for Vancouver
-     at 3pm on March 5, 2012 as describe in the
-     `datetime_sol notebook <notebooks/datetime_sol.html>`_
-   * Reading: Stull Chap. 2 pp. 27-34
+  * Learning objectives: Demonstrate Stefan-Boltzman, Wien's law,
+    sun-earth geometry in Python
+  * Assignment: 
+    - Wien's law using `derivatives notebook <notebooks/derivatives.html>`_
+    - Solar zenith angle using  `datetime_sol notebook <notebooks/datetime_sol.html>`_
+  * Reading: Stull Chap. 2 pp. 27-34
 
 * Week 3  9/17 - 9/21:  Radiation basics
 
-  * Wavenumber, field of view, radiance and irradiance
-    Day 6 notes <textfiles/a301_day6.pdf>`_
-  * Blackbody radiation, equilibrium temperature, 
-  * Kirchoff's law, scattering and extinction 
-  * Assignment: Working with MODIS data
-  * Reading: WH 113-126
-  * `Day 7 notes <textfiles/a301_day7.pdf>`_
-  * `Inverse planck solution <notebooks/inverse_planck_sol.html>`_
-  * :ref:`stull` p. 220-224
-  * :ref:`Day 7 slides`
-  * :ref:`Day 8 slides`
-  * `Day 7 quiz solution <notebooks/day7_quiz_sol.html>`_
-  * Do the :ref:`modis-exercise` and read W&H 122-121
-    for Monday
-  * Learning objectives:  
-    - calculate solid angle and flux given radiance, pixel size and orbit height
-    - 
+  * Learning objectives: Introduce wavenumber, field of view, radiance and irradiance,
+    blackbocy radiation, equilibrium temperature, Kirchoff's law, scattering and extinction in
+    the `Day 6 notes <textfiles/a301_day6.pdf>`_ and `Day 7 notes <textfiles/a301_day7.pdf>`_ .
+    Be able to calculate solid angle and flux given radiance, pixel size and orbit height.
+  * Reading: WH 113-126, :ref:`stull` p. 220-224
+  * Assignments:
+
+    - Notebook: `Inverse planck solution <notebooks/inverse_planck_sol.html>`_
+    - `Day 7 quiz solution <notebooks/day7_quiz_sol.html>`_
+    - :ref:`modis-exercise` and read W&H 122-121
 
 * Week 4  9/24 - 9/28    
 
-  * Finish :ref:`Day 8 slides`
-  * Look at :ref:`metadata-exercise`
-  * Wed. Assignment :ref:`day-9-probs`
-  * `Day 9 solution notebook <notebooks/day9_sol.html>`_
-  * Beers law, absorption/emission, 
-  * Start :ref:`Day 10 slides`
-  * Due Friday 9am :ref:`day-10-probs`
-  * `Day 10 solution notebook <notebooks/day10_sol.html>`_
+  * Learning objectives: Derive Beers law, calculate equlibrium temperatures for absorbing/emitting layers
+    as outlined in the `Day 8 part I slides <layer_lecture_slides.pdf>`_ and 
+    `Day 8 part II slides <textfiles/a301_day8.pdf>`_.  Relate the transmission to the
+    scattering and absorption cross sections and the optical depth
+    in the  `Day 10 slides <textfiles/day10_transmittance.pdf>`_
+  * Assignment: 
+
+    - `Day 9 solution notebook <notebooks/day9_sol.html>`_
+    - `Day 10 solution notebook <notebooks/day10_sol.html>`_
+    - `Day 11 assignment <textfiles/day11_assignment.pdf>`_ using the `troposphere_solution.xls <posted/troposphere_solution.xls>`_ spreadsheet
   * Reading:  W\&H 127-136
-  * `Day 11 assignment <textfiles/day11_assignment.pdf>`_
-    using `troposphere_solution.xls <posted/troposphere_solution.xls>`_
 
 * Week 5  10/1 - 10/5 
 
-  * Flux divergence/heating rates, Forward models
-  * Assignment: Atmospheric correction of satellite SSTs
-  * :ref:`Day 12`
+  * Learning objectives: 
+
+    - Set up and solve layer models to get 
+      flux divergence/heating rates following
+      `layer_model.pdf <weeks/week5/layer_model.pdf>`_, `two_layer_stratosphere.pdf <weeks/week5/two_layer_stratosphere.pdf>`_
+
+    - `day 13 notes`_
+   
+    -  Derive the Schwartzchild equation for a constant temperature atmosphere in the `day 14 notes`_
+
+  * (not on the final: `Notes on the mean free path <textfiles/mean_free_path.pdf>`_ )
+
+  * Assignments:
+
+    - Solving the two-layer plus surface problem:
+
+      - `layers.py <weeks/week5/layers.py>`_
+      - `day12_layers.pdf <weeks/week5/day12_layers.pdf>`_
+
+    - Finding the flux balance for layer 57 of a 100 layer atmosphere and comparing two equivalent
+      ways of calculating the solar flux: :ref:`Day 12 problems`
+      and  the `day12 solution`_
+
+    - `Day 13 questions <textfiles/day13_online.pdf>`_
+
+
   * Reading:  notes, WH 127-132
-  * Due Wednesday (hand in before class) :ref:`Day 12 problems`
-  * :ref:`Day 13`
-  * :ref:`Day 14`
 
 * Week 6  10/10 - 10/12  
 
