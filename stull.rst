@@ -12,4 +12,4 @@ _____________
 
 * `Stull chapter 8 <textfiles/stull_ch8.pdf>`_
 
-
+:ref:`assign_mon_sept_8`
