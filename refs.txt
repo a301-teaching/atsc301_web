@@ -1,1 +1,5 @@
 .. _How to think like a computer scientist: http://interactivepython.org/courselib/static/thinkcspy/index.html
+
+.. _Python crash course: http://nbviewer.ipython.org/github/barbagroup/CFDPython/blob/master/lessons/00_Quick_Python_Intro.ipynb
+
+.. _Introduction to Python programming: http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-1-Introduction-to-Python-Programming.ipynb

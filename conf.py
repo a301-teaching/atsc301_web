@@ -42,8 +42,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'ATSC 405'
-copyright = u'2012, Philip Austin'
+project = u'ATSC 301'
+copyright = u'2014, Philip Austin'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -98,7 +98,7 @@ pygments_style = 'sphinx'
 # Sphinx are currently 'default' and 'sphinxdoc'.
 #html_theme = 'default'
 #html_theme = 'sphinxphil'
-html_theme = 'bootstrap'
+html_theme = 'bootstrap3'
 html_theme_path = ["."]
 
 # Theme options are theme-specific and customize the look and feel of a theme

@@ -17,6 +17,7 @@ ________________
 
    Python resources <python>
 
+   Weekly notes <learning_objectives>
 
 Index
 _____

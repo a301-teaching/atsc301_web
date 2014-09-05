@@ -1,159 +1,82 @@
-Python resources
-________________
-
-Getting started with the Enthought Python Distribution
-------------------------------------------------------
-
-Windows
--------
-
-    1) under the Start menu, go to "All Programs\\Enthought" and
-       right click on "Pylab".  Select "Pin to Taskbar" and
-       "Pin to Start Menu"
-
-    2) Do the same for the editor "Scite"
-
-    3) A good brief introduction to the ipython command shell is
-       `this ieee article by F. Perez <http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4160251&tag=1>`_
-
-    4) Useful ipython commands:  
-
-       * pwd *print working directory*
-       * cd  *change directory*
-       * ls  *list files*
-       * try out the examples at `the first steps page <http://scipy-lectures.github.com/intro/language/first_steps.html>`_
-    
-
-    5) Workflow
-
-       1) Start scite and ipython
-       2) open a python file with scite
-       3) change to the working directory containing the file
-          in ipython using cd
-       4) "run file"  to run file.py
-       5) use up and down arrow  keys to retrieve old commands
-       6) get help on command "np.mean" by typing "help np.mean" in
-          the ipython shell
-
-Linux
-_____
+.. toctree::
+   :maxdepth: 1
 
 
-       
+Python from a standing start
+----------------------------
 
-Python distributions
---------------------
+Here are some notes on my python setup, plus resources for learning python.  The intended audience
+is undergrad/grad/post-docs interested in modeling and data analysis in python.
 
-Distributions that include the major science and numerical libraries:
-
-- `The Enthought Python distribution <http://www.enthought.com/products/epd.php>`_ (free for educational use), works on Macs, Windows, Linux
-
-- `Python(x,y) <http://www.pythonxy.com/download.php>`_ (free, Windows only)
-
-- `Sage <http://www.sagemath.org>`_  (Macs, Windows, Linux)
-
-- Linux packages for ubuntu, debian, redhat, centos, etc.
 
 
 Books and tutorials
--------------------
++++++++++++++++++++
 
-Python programming
-++++++++++++++++++
+                                                     
+-  `IPython (2.0) notebook basics <http://nbviewer.ipython.org/github/ipython/ipython-in-depth/blob/master/examples/Notebook/Notebook%20Basics.ipynb>`_. To get the notebook: click on the link and then 
+   right click on the download arrow in the upper right corner.  IPython comes with the anaconda install described below.  
+   To open the notebook with ipython in OSX or Linux, launch a terminal (or in Windows, cmd.exe), cd to the directory that
+   contains the *Notebook Basics.ipynb* file and type::
+
+      ipython notebook
+   
+   Your default browser will open the dashboard page, click on the link that says *Notebook Basics*.
+
+- `Python Crash Course <http://nbviewer.ipython.org/github/barbagroup/CFDPython/blob/master/lessons/00_Quick_Python_Intro.ipynb>`_, part of `CFD Python <https://github.com/barbagroup/CFDPython/blob/master/README.md>`_
+   
+- `Lecture notes as IPython notebooks <http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb>`_ by `J. R. Johansson <http://dml.riken.jp/~rob/>`_   (Download from https://github.com/jrjohansson/scientific-python-lectures by either cloning the repository or clicking the *download zip* button on the right hand side).
 
 - `Python Scientific Lecture Notes <http://scipy-lectures.github.com/>`_
-  (start here) or buy this ebook:
 
-  - `Numpy for beginners  <http://gael-varoquaux.info/blog/?p=161>`_
+- `Johnny Lin's Python for Atmospheric/Ocean Sciences <http://www.johnny-lin.com/pyintro/>`_
 
-- `The offical Python tutorial <http://docs.python.org/tut/tut.html>`_
-
-- `Python for software design <http://www.greenteapress.com/thinkpython/thinkpython.html>`_ (236 pp., introductory computer science text used at Olin College)
-
-- `Dive into python <http://www.diveintopython.org>`_ (327 pages, quick start for experienced programmers)
-
-- `Instant python <http://hetland.org/writing/instant-python.html>`_ (10 page web quickstart)
-
-- `Building skills in python <http://homepage.mac.com/s_lott/books/index.html>`_ two different versions of the same introductory book, one for non-programmers and one for programmers.
-
-- `Byte of python <http://www.swaroopch.com/notes/Python>`_ (110 page book for experienced programmers).
+- `Python for Data Scientists <http://blog.yhathq.com/posts/data-science-in-python-tutorial.html>`_
 
 
-Scientific python
-+++++++++++++++++
+- My favorite O'Reilly book is:
 
-- `Intro to python lecture (Cornell course notes by Chris Meyers) <http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/LectureNotes/Intro_to_Python.pdf>`_ (32 slides)
+  - `Python for Data Analysis <http://shop.oreilly.com/product/0636920023784.do>`_
 
-- `IEEE Python special issue (2007) <http://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4160244&isYear=2007>`_ (subscription required)
+- Some other resources:
 
-  - `Python for scientific computing <http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4160250&isnumber=4160244>`_
+  - If you know Matlab, there is `Numpy for Maltab users <http://wiki.scipy.org/NumPy_for_Matlab_Users>`_
+  
+  - `Numpy beginners guide <http://www.packtpub.com/numpy-mathematical-2e-beginners-guide/book>`_
 
-  - `Interactive python with Ipython <http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4160251&isnumber=4160244>`_
+  - `Learning Ipython <http://www.packtpub.com/learning-ipython-for-interactive-computing-and-data-visualization/book>`_
 
-  - `Plotting with matplotlib <http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4160265&isnumber=4160244>`_
+  - `The official Python tutorial <http://docs.python.org/tut/tut.html>`_
 
-- `IEEE Python special issue (2011) <http://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5725228>`_ (subscription required)
+  - `Python for high performance computing <http://www.packtpub.com/python-high-performance-programming/book>`_
 
-  - `Python for Scientists and Engineers <http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5725235&tag=1>`_
-
-  - `Python: An Ecosystem for Scientific Computing <http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5582063>`_
-
-  - `The NumPy Array: A Structure for Efficient Numerical Computation <http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5725236>`_
-
-  - `Cython: The Best of Both Worlds <http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5582062>`_
-
-  - `Mayavi: 3D Visualization of Scientific Data <http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5725237>`_
+  - `Numpy cookbook <http://www.packtpub.com/numpy-for-python-cookbook/book>`_
 
 
-- If you have access to Springerlink you can view two
-  `Springer books on Python <http://toby.library.ubc.ca/resources/infopage.cfm?id=567>`_:
+Installation
+++++++++++++
 
-  * `A Primer on Scientific Programming with Python (2009) <http://www.springerlink.com/content/vm1505/?p=597e6a095fcf4cf78736c57dba7e11d2&pi=2>`_ (see Chapter 4 in particular)
+1) I use the `Anaconda Python Distribution <https://store.continuum.io/cshop/anaconda/>`_, which is a curated
+   set of `python packages <http://docs.continuum.io/anaconda/pkgs.html>`_ that is installed with the 
+   `conda package manager <http://docs.continuum.io/conda/>`_   I install in my user home directory (/Users/phil
+   on my osx laptop) and add /Users/phil/anaconda/bin  to my $PATH (OSX) or the path environment variable (Windows)
 
-  * `Python Scripting for Computational Science (2006) <http://www.springerlink.com/content/k68167/?p=45e3fdd67df642a49fe79c998426812c&pi=5>`_
+2) A good editor for working with python is `Sublimetext <http://www.sublimetext.com>`_ (which is written in Python)
 
-- If you know matlab there is `numpy for matlab users <http://www.scipy.org/NumPy_for_Matlab_Users>`_
+2) I write lecture notes using IPython notebook, but I do
+   my interactive work using `Ipython <http://nbviewer.ipython.org/urls/raw2.github.com/yhat/DataGotham2013/master/notebooks/1%20-%20Tools%20Overview.ipynb?create=1#IPython>`_, either from inside emacs using `python-mode <http://www.emacswiki.org/emacs/ProgrammingWithPythonModeDotEl>`_ or launching
+   a qtconsole with an alias to the following command (for Macs)::
 
-- If you know R or IDL: `Python for IDL, Matlab, R users <http://mathesaurus.sourceforge.net>`_
+       ipython qtconsole --matplotlib=osx
 
-- `Numpy/Scipy array tip sheet (Chris Meyers) <http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/python/arrays.html>`_
+       or on Windows/Linux
 
-- Python plotting is described in the `Matplotlib users' guide <http://matplotlib.sourceforge.net/contents.html>`_
+       ipython qtconsole --matplotlib=qt4
 
-Scipy tutorials/websites
-------------------------
-
-- `Scipy website <http://www.scipy.org>`_
-
-- `Scipy docs <http://docs.scipy.org/doc/>`_
-
-- `Matplotlib tutorial <http://matplotlib.sourceforge.net/users/pyplot_tutorial.html>`_
-
-- `Using python for interactive data analysis <http://www.scipy.org/wikis/topical_software/Tutorial>`_
-
-- `the Py4Science workbook <http://clouds.eos.ubc.ca/~phil/numeric/python/py4science.pdf>`_ 
-
-- `Py4Science source <http://ipython.scipy.org/moin/Py4Science>`_
+   This launches an interactive window and starts two threads, one for commands and one for plotting, so that you can
+   update graphs without having the terminal block
 
 
-Conference proceedings
-----------------------
-
-- `SIAM 2011 <http://fperez.org/events/2011_siam_cse/>`_
-
-- `Scipy 2010 <http://conference.scipy.org/scipy2010/schedule.html>`_
-
-- `SIAM 2009 <http://fperez.org/py4science/2009_siam_cse/>`_
 
 
-Under development
-+++++++++++++++++
-
-- `Scipy tutorial <http://docs.scipy.org/doc/scipy/reference/tutorial>`_
-
-- `Numpy tutorial <http://www.scipy.org/Tentative_NumPy_Tutorial>`_
-
-- `Scipy cookbook <http://www.scipy.org/Cookbook>`_
-
-- `Additional documentation <http://www.scipy.org/Additional_Documentation?action=show&redirect=Documentation>`_
 

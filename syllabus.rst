@@ -20,7 +20,7 @@ By the end of this course you should have a good understanding of
 2. how radiometers, radars and lidars are used to infer 
    temperature and atmospheric constituents (the "inverse problem")
 
-3. how to write clear, capable code that can ingest, manipulate and tranform
+3. how to write clear, documented and tested code that can ingest, manipulate and display
    data, and how to turn equations into computer algorithms in Python
    
 
@@ -45,7 +45,7 @@ Sample lecture learning objectives (provided with each lecture)
 
 7. Use basic concepts from calculus and linear algebra to solve atmospheric problems
 
-8. Write programs to analyze satellite and climate data
+8. Write programs to analyze satellite and climate data for MODIS and Cloudsat data
 
 
 Evaluation
@@ -56,67 +56,69 @@ Evaluation
 :Mid-term:                        25%
 :Final:                           40%
 
+* a reminder about the `UBC code of conduct <http://science.ubc.ca/students/new/conduct>`_
+
+
 Required texts
 --------------
 
-* Wallace and Hobbs, 2006, *Atmospheric Science, an Introductory Survey*, Chapters 4 and 10 (UBC Bookstore, also used
-  for ATSC 305)
+* Wallace and Hobbs, 2006, *Atmospheric Science, an Introductory Survey*, Chapters 4 and 10 
 
-* Stull, Practical meteorology, Chapters 2 and 8  (will be distributed)
+* Stull, Practical meteorology, Chapters 2, 3 and 8 
 
 
-Week by week topics
--------------------
+Week by week topics (subject to change)
+---------------------------------------
 
       ======= =============  ===============================================
-      Week 1  9/5 - 9/7      | Introduction, course outline, Python intro
-                             | Assignment: install python
-                             | Reading:  `How to think like a computer scientist`_
+      Week 1  9/1 - 9/5      | Introduction, course outline, Python intro
+                             | Assignment: install python, go over sample programs
 
-      Week 2  9/10 - 9/14    | Python continued
+      Week 2  9/8  - 9/12    | Python continued
                              | Assignment: Use python for plotting and integration
                              | Reading:  notes, Stull Chapter 2:36-44
 
-      Week 3  9/17 - 9/21    | Blackbody radiation, equilibrium temperature, 
-                               Kirchoff's law, scattering and extinction 
+      Week 3  9/15 - 9/19    | Blackbody radiation, equilibrium temperature, 
+                             | Kirchoff's law, scattering and extinction 
                              | Assignment: MODIS cloud top properties
                              | Reading: WH 117-126
     
-      Week 4  9/24 - 9/18    | Beers law, absorption/emission, 
-                             | Assignment: two-stream code model 
+      Week 4  9/22 - 9/26    | Beers law, absorption/emission, 
+                             | Assignment: two-stream model 
                              | Reading:  W\&H 127-136
     
-      Week 5  10/1 - 10/5    | Flux divergence/heating rates, Forward models
-                             | Assignment: Atmospheric correction of satellite SSTs
+      Week 5  9/29 - 10/3    | Flux divergence/heating rates, Forward models
+                             | Assignment: Normalized Difference Vegetation Index (NDVI)
                              | Reading:  notes, WH 130-132 Stull 2: 44-46 
 
-      Week 6  10/10 - 10/12  | Atmospheric sounder: forward model
+      Week 6  10/6  - 10/10  | Atmospheric sounder: forward model
                              | Assignment: atmospheric sounder code
                              | Reading:  WH 132-136, Stull 8:219-226
 
-      Week 7  10/15 - 10/19  | Satellites continued: AIRES instrument
+      Week 7  10/13 - 10/17  | Satellites continued: AIRES instrument
                              | Assignment: mid-term review, mid-term
+                             | (Monday: Thanksgiving)
 
-      Week 8  10/22 - 10/26  | Rain radar
+      Week 8  10/20 - 10/24  | Rain radar
                              | Assignment: Cloudsat precipitation data
                              | Reading:  Stull 8:240-248 plus handouts
 
-      Week 9  10/29/- 11/2   | Doppler radar
+      Week 9  10/27 - 10/31  | Doppler radar
                              | Assignment: Interpting doppler data
                              | Reading:  Stull 8:249-259 plus handouts
     
-      Week 10 11/8 - 11/12   | Radiation and climate 
+      Week 10 11/3 - 11/7    | Radiation and climate 
                              | Assignment: Validating climate model data
                              | Reading:  WH 419-422 plus handouts
 
-      Week 11 11/14 - 11/16  | Water vapor, clouds and aerosols I
+      Week 11 11/10 - 11/14  | Water vapor, clouds and aerosols I
                              | Assignment: Calipso lidar data -- dust storms
                              | Reading:  handouts
 
-      Week 12 11/19 - 11/23  | Water vapor, clouds and aerosos II
+      Week 12 11/17 - 11/21  | Water vapor, clouds and aerosos II
                              | Assignment: Calipso, Cloudsat and MODIS synthesis
                              | Reading:  handouts
 
-      Week 13 11/26 - 11/30  | Catch-up, reiew
+      Week 13 11/24 - 11/28  | Catch-up, review
 
       ======= =============  ===============================================

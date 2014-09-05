@@ -1,0 +1,19 @@
+Use an editor of your choice to write a short program that does the following:
+
+1) opens a file named input.txt with a line of two numbers in the format:
+
+1000;-3
+
+where both numbers are integers, the first positive and the second negative
+
+2) assigns those two values to the variables:  total_count and step_size, respectively
+
+3) loops from total_count to 0 by step_size, printing the loop integer for each step
+
+
+Your program can be written in any computer language you feel comfortable with.
+
+It doesn't have to actually run, but it should have a reasonable change of running.
+
+
+Upload your program as an attachment.
