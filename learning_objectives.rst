@@ -14,8 +14,8 @@ Week by week topics
 Week 1  9/1 - 9/5
 +++++++++++++++++
 
-Wednesday, September 3
-______________________
+Day 1: Wednesday, September 3
+_____________________________
 
 * Learning objectives: get comfortable with simple functions
   and plotting in python
@@ -24,8 +24,8 @@ ______________________
 * Reading for Friday:  Install anaconda python and work through as much of `Python crash course`_
   and `Introduction to Python programming`_  as you can in 3 hours
 
-Friday, September 5
-___________________
+Day 2: Friday, September 5
+__________________________
 
 * My answer for the Wednesday assignment `week1.ipynb <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/35475c23aec925399ead0a77d8797c44f102c89e/notebooks/week1.ipynb>`_
 
@@ -35,8 +35,8 @@ ___________________
 
 .. _assign_mon_sept_8:  
   
-Assignment for Monday Sept. 8
-=============================
+Assignment for Day 3: Monday Sept. 8
+====================================
   
 * Assignment for Monday -- before Monday 10 am upload an IPython notebook to Connect that does as much as you can of the following tasks:
 
@@ -44,6 +44,24 @@ Assignment for Monday Sept. 8
 
   * Evaluate your function for the hours between 3 and 21 and show that the elevation angle agrees with the solved example
     for Vancouver, BC on 22 Dec, 23 Mar. and 22 Jun   (don't have to make a plot, just printing the numbers is ok
-    
+
+Week 2  9/8 - 9/12
+++++++++++++++++++
+
+* Week 2: Learning objectives
+
+  * Learning goals: Introduce wavenumber, field of view, radiance and irradiance,
+    blackbody radiation, Stefan-Boltzman, Wien's Law, equilibrium temperature, Kirchoff's law
 
 
+Day 3: Monday Sept. 8
+_____________________
+
+* Go over the `elevation notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/day3_elevation.ipynb>`_
+
+* Do the "white paper" exercise
+
+* Assignment for Wednesday:  Read Stull pp. 34-38 on flux and blackbody radiation and
+  Wallace and Hobbs pp. 113-118 on radiation and complete the `Stefan-Boltzman notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/stefan_boltzman.ipynb>`_
+
+      

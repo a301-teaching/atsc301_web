@@ -19,6 +19,8 @@ ________________
 
    Weekly notes <learning_objectives>
 
+   Text: David Pine's Introduction to Python for Science <http://clouds.eos.ubc.ca/~phil/djpine_python/Book/_build/html/pymanMaster.html>
+   
 Index
 _____
 
