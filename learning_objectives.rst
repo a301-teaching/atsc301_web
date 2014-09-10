@@ -64,4 +64,11 @@ _____________________
 * Assignment for Wednesday:  Read Stull pp. 34-38 on flux and blackbody radiation and
   Wallace and Hobbs pp. 113-118 on radiation and complete the `Stefan-Boltzman notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/stefan_boltzman.ipynb>`_
 
-      
+Day 4: Wednesday Sept. 10
+_________________________
+
+
+
+* Assignment for Friday:  Read my 
+
+  
