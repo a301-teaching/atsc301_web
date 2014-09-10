@@ -67,8 +67,12 @@ _____________________
 Day 4: Wednesday Sept. 10
 _________________________
 
+* finish white paper example
 
+* go over `the stefan-boltzman answer <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/stefan_boltzman_answer.ipynb>`_
 
-* Assignment for Friday:  Read my :ref:`Notes on geometry, planck function`
+* work with the `planck function library <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/plotplanck.ipynb>`_
 
+* Assignment for Friday:  Read my `Notes on geometry and planck function`_
+  and complete `the derivitives notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/derivatives.ipynb>`_
   
