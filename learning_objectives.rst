@@ -69,6 +69,6 @@ _________________________
 
 
 
-* Assignment for Friday:  Read my 
+* Assignment for Friday:  Read my :ref:`Notes on geometry, planck function`
 
   
