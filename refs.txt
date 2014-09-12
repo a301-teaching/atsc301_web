@@ -5,3 +5,5 @@
 .. _Introduction to Python programming: http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-1-Introduction-to-Python-Programming.ipynb
 
 .. _Notes on geometry and planck function: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/a301_geometry_notes.pdf
+
+.. _Notes on radiative equilibrium: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/radiative_equilibrium.pdf

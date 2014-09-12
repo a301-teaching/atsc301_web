@@ -6,16 +6,17 @@
    week 1 <week1_submissions>  
    stull <stull>
    
-Week by week topics
--------------------
+=====================
+ Week by week topics
+=====================
 
 .. _week1:
 
 Week 1  9/1 - 9/5
-+++++++++++++++++
+=================
 
 Day 1: Wednesday, September 3
-_____________________________
+-----------------------------
 
 * Learning objectives: get comfortable with simple functions
   and plotting in python
@@ -25,7 +26,7 @@ _____________________________
   and `Introduction to Python programming`_  as you can in 3 hours
 
 Day 2: Friday, September 5
-__________________________
+--------------------------
 
 * My answer for the Wednesday assignment `week1.ipynb <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/35475c23aec925399ead0a77d8797c44f102c89e/notebooks/week1.ipynb>`_
 
@@ -36,7 +37,7 @@ __________________________
 .. _assign_mon_sept_8:  
   
 Assignment for Day 3: Monday Sept. 8
-====================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
 * Assignment for Monday -- before Monday 10 am upload an IPython notebook to Connect that does as much as you can of the following tasks:
 
@@ -46,7 +47,7 @@ Assignment for Day 3: Monday Sept. 8
     for Vancouver, BC on 22 Dec, 23 Mar. and 22 Jun   (don't have to make a plot, just printing the numbers is ok
 
 Week 2  9/8 - 9/12
-++++++++++++++++++
+==================
 
 * Week 2: Learning objectives
 
@@ -54,8 +55,8 @@ Week 2  9/8 - 9/12
     blackbody radiation, Stefan-Boltzman, Wien's Law, equilibrium temperature, Kirchoff's law
 
 
-Day 3: Monday Sept. 8
-_____________________
+Day 4: Monday Sept. 8
+---------------------
 
 * Go over the `elevation notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/day3_elevation.ipynb>`_
 
@@ -65,7 +66,7 @@ _____________________
   Wallace and Hobbs pp. 113-118 on radiation and complete the `Stefan-Boltzman notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/stefan_boltzman.ipynb>`_
 
 Day 4: Wednesday Sept. 10
-_________________________
+-------------------------
 
 * finish white paper example
 
@@ -76,3 +77,13 @@ _________________________
 * Assignment for Friday:  Read my `Notes on geometry and planck function`_
   and complete `the derivitives notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/derivatives.ipynb>`_
   
+Day 5: Friday Sept. 12
+----------------------
+
+* Go over the `Notes on geometry and planck function`_ handout
+
+* Review `derivitives solution <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/wiens_law.ipynb>`_
+
+* For Monday, read W&H 116 to 122 and my `Notes on radiative equilibrium`_
+
+* Finish and upload my `Wien's law for wavenumber notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/wiens_law_wavenumber.ipynb>`_
