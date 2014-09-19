@@ -121,7 +121,7 @@ Day 6: Monday Sept. 15
 * Catch up with the `Notes on geometry and planck function`_ handout and
   `Notes on radiative equilibrium`_  
 
- Day 7: Wednesday, Sept. 17
+Day 7: Wednesday, Sept. 17
 --------------------------
 
 * Read a Modis netCDF file using the `satellite notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/satelliteI.ipynb>`_
@@ -129,14 +129,14 @@ Day 6: Monday Sept. 15
 * For Friday: do the two analytical problems in the `analytic wiens notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/analytic_wiens.ipynb>`_
 
 
- Day 8: Friday, Sept. 19
+Day 8: Friday, Sept. 19
 -----------------------
 
 * go over the `wiens analytic notebook solution`_
 
 * Continue with the `satellite notebook`_
 
-* For Monday, upload your solution to the `inverse_planck_problem`_  (by 10am on connect)
+* For Monday, upload your solution to the `inverse planck problem`_  (by 10am on connect)
 
 * read: Stull 35-45 on radiation principles  and Wallace and Hobbs 118-122 on Kirchoff's law and the Greenhouse effect
   
