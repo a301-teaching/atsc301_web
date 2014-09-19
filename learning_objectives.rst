@@ -87,3 +87,58 @@ Day 5: Friday Sept. 12
 * For Monday, read W&H 116 to 122 and my `Notes on radiative equilibrium`_
 
 * Finish and upload my `Wien's law for wavenumber notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/wiens_law_wavenumber.ipynb>`_
+
+
+Week 2  9/8 - 9/12
+==================
+
+* Learning goals: get calibrated radiances from MODIS data
+
+
+Day 6: Monday Sept. 15
+----------------------
+
+* Review `Wien's wavenumber solution <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/wiens_law_wavenumber_solution.ipynb>`_
+
+* Introduce MODIS -- assignment for Wednesday
+
+  - Take a look at `the MODIS website <http://modis.gsfc.nasa.gov/about/>`_ .
+    Click on and read the pages about the design concept, components and
+    specification.
+
+  - Do the same for this article about 
+    `Terra, Aqua, and the A-train <http://www.spacetoday.org/Satellites/TerraAqua/ATrain.html>`_
+
+  - Following the in-class demo -- go to 
+    http://ladsweb.nascom.nasa.gov  and downoad a level1b (geolocated
+    and calibrated radiances) collection 5.1 data granule that contains something
+    you're interested in looking at (Area 51, your hometown, etc.)
+
+    You can see a screencast on `my youtube channel`_
+
+  - Upload that hdf file to the dropbox you shared with me
+    
+* Catch up with the `Notes on geometry and planck function`_ handout and
+  `Notes on radiative equilibrium`_  
+
+ Day 7: Wednesday, Sept. 17
+--------------------------
+
+* Read a Modis netCDF file using the `satellite notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/satelliteI.ipynb>`_
+
+* For Friday: do the two analytical problems in the `analytic wiens notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/analytic_wiens.ipynb>`_
+
+
+ Day 8: Friday, Sept. 19
+-----------------------
+
+* go over the `wiens analytic notebook solution`_
+
+* Continue with the `satellite notebook`_
+
+* For Monday, upload your solution to the `inverse_planck_problem`_  (by 10am on connect)
+
+* read: Stull 35-45 on radiation principles  and Wallace and Hobbs 118-122 on Kirchoff's law and the Greenhouse effect
+  
+
+

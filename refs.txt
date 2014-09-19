@@ -7,3 +7,13 @@
 .. _Notes on geometry and planck function: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/a301_geometry_notes.pdf
 
 .. _Notes on radiative equilibrium: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/radiative_equilibrium.pdf
+
+.. _my youtube channel: https://www.youtube.com/channel/UCR_ICP0diTXSU5aJ7R5v0rw
+
+.. _satellite notebook: http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/satelliteI.ipynb
+
+.. _wiens analytic notebook: http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/analytic_wiens.ipynb
+
+.. _wiens analytic notebook solution: http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/analytic_wiens_soln.ipynb
+
+.. _inverse planck problem: http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/inverse_planck.ipynb
