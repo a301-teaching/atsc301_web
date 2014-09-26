@@ -18,4 +18,11 @@
 
 .. _inverse planck problem: http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/inverse_planck.ipynb
 
-.. _Notes on Beers law: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/a301_geometry_notes.pdf
+.. _satellite2 notebook: http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/satelliteII.ipynb
+
+.. _satellite3 notebook: http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/satellite3.ipynb
+
+.. _satellite4 notebook: http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/satellite4.ipynb
+
+.. _Notes on Beers law: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/beers_law_notes.pdf
+

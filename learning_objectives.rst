@@ -155,21 +155,21 @@ Day 9: Monday, Sept. 22
 
 * Objective:  invert level1b channel 31 11 micron radiances for brightness temperatures
 
-* Go over `satelliteII <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/satelliteII.ipynb>`_ exercise
+* Go over the `satellite2 notebook`_ exercise
   to calculate the brightness temperature for Modis Channel31 radiances on a 0.05 x 0.05 lat/lon grid.
 
 
 Day 10: Wed., Sept. 24
 -----------------------
 
-* Go over the `satellite3 notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/satellite3.ipynb>`_ which uses matplotlib's
+* Go over the `satellite3 notebook`_ which uses matplotlib's
   pcolormesh function to make color images of regularly gridded 2-d arrays
 
 
 Day 11: Fri., Sept. 26
 -----------------------
 
-* Go over the satellite4 notebook, which plots a 500 x 500 pixel image of the Channel 1 reflectivity.
+* Go over the `satellite4 notebook`_, which plots a 500 x 500 pixel image of the Channel 1 reflectivity.
 
 * Assignment for Monday:
 
