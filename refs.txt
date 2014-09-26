@@ -17,3 +17,5 @@
 .. _wiens analytic notebook solution: http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/analytic_wiens_soln.ipynb
 
 .. _inverse planck problem: http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/inverse_planck.ipynb
+
+.. _Notes on Beers law: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/a301_geometry_notes.pdf

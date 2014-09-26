@@ -89,8 +89,8 @@ Day 5: Friday Sept. 12
 * Finish and upload my `Wien's law for wavenumber notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/wiens_law_wavenumber.ipynb>`_
 
 
-Week 2  9/8 - 9/12
-==================
+Week 3  9/15 - 9/20
+===================
 
 * Learning goals: get calibrated radiances from MODIS data
 
@@ -139,6 +139,60 @@ Day 8: Friday, Sept. 19
 * For Monday, upload your solution to the `inverse planck problem`_  (by 10am on connect)
 
 * read: Stull 35-45 on radiation principles  and Wallace and Hobbs 118-122 on Kirchoff's law and the Greenhouse effect
-  
 
+Week 4  9/22 - 9/27
+===================
+
+* Learning objectives -- map calibrated, navigated MODIS radiances
+
+* Solve for a two layer atmosphere in radiative equilibrium
+
+Day 9: Monday, Sept. 22
+-----------------------
+
+* Go over the solution to the `Inverse Planck Notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/inverse_planck_sol.ipynb>`_
+  and `Planck wavenum <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/wiens_law_wavenumber_solution.ipynb>`_
+
+* Objective:  invert level1b channel 31 11 micron radiances for brightness temperatures
+
+* Go over `satelliteII <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/satelliteII.ipynb>`_ exercise
+  to calculate the brightness temperature for Modis Channel31 radiances on a 0.05 x 0.05 lat/lon grid.
+
+
+Day 10: Wed., Sept. 24
+-----------------------
+
+* Go over the `satellite3 notebook <http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/satellite3.ipynb>`_ which uses matplotlib's
+  pcolormesh function to make color images of regularly gridded 2-d arrays
+
+
+Day 11: Fri., Sept. 26
+-----------------------
+
+* Go over the satellite4 notebook, which plots a 500 x 500 pixel image of the Channel 1 reflectivity.
+
+* Assignment for Monday:
+
+  1. hand in you won version of my satellite4 notebook which replaces the multiple calls to the gridding routine::
+
+        sat_array=np.zeros([len(lat_bins),len(lon_bins)],dtype=np.float)
+
+        for point_num in range(len(lat_indices)):
+            bin_row=lat_indices[point_num]
+            bin_col=lon_indices[point_num]   
+            sat_array[bin_row,bin_col]=sat_array[bin_row,bin_col] + sat_data.flat[point_num]
+
+        for i in range(lon_array.shape[0]):
+            for j in range(lon_array.shape[1]):
+                if bin_count[i,j] > 0:
+                    sat_array[i,j]=sat_array[i,j]/bin_count[i,j]
+                else:
+                    sat_array[i,j]=np.nan
+
+     with a function that takes lat_bins, lon_bins and sat_data and returns a gridded sat_array. 
+
+  2. Read Wallace and Hobbs 122-134, focussing on the topics that overlap with my `Notes on Beers law`_
+     For Wednesday, do W&H problems 4.20, 4.21, 4.22, 4.23, 4.30, and prove that Kirchoff's law holds
+     for an absorbing and transmitting gas using the thought experiment discussed in class.
+     
 
