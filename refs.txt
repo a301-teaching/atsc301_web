@@ -26,5 +26,8 @@
 
 .. _Notes on Beers law: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/beers_law_notes.pdf
 
-.. _Schwartzchild notes: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/schwartzchild_notes.pdf
+.. _Schwartzchild notes: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/schwartzchild.pdf
 
+.. _hydrostat.py: https://github.com/a301-teaching/classcode/blob/master/lib/hydrostat.py
+
+.. _Tucson zenith angle notebook: http://nbviewer.ipython.org/github/a301-teaching/classcode/blob/master/notebooks/tucson_elevation.ipynb

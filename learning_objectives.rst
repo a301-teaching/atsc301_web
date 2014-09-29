@@ -199,10 +199,23 @@ Day 11: Fri., Sept. 26
 Week 5  9/29 - 10/3
 ===================
 
-* Learning goals
+* Learning objectives
 
-    - Link the absorption to molecular absorption lines, and 
-      introduce the hydrostatic equation and show how it combines with Beers law to set the level
-      of maxiumum absorption in the `Notes on Beers law`_
+  - Link the absorption to molecular absorption lines, and 
+    introduce the hydrostatic equation and show how it combines with Beers law to set the level
+    of maxiumum absorption in the `Notes on Beers law`_
    
-    - Derive the Schwartzchild equation for a constant temperature atmosphere in the `day 14 notes`_
+  - Derive the Schwartzchild equation for a constant temperature atmosphere in the `Schwartzchild notes`_
+
+Day 12: Mon., Sept. 29
+----------------------
+
+* Go over the Beer's law observations of the absorption coefficient in Wallace and Hobbs Figure 4.24 using
+  the secant angles in the `Tucson zenith angle notebook`_
+  
+* Introduce a python script to compute optical depth for a hydrostatic atmosphere: `hydrostat.py`_
+
+* Start `Schwartzchild notes`_ covering Wallace and Hobbs 134-136 and Stull Chapter 8 pp. 224-226
+  
+
+      
