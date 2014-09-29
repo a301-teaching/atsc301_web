@@ -26,3 +26,5 @@
 
 .. _Notes on Beers law: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/beers_law_notes.pdf
 
+.. _Schwartzchild notes: http://clouds.eos.ubc.ca/~phil/courses/atsc301/text/schwartzchild_notes.pdf
+

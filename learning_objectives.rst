@@ -196,3 +196,13 @@ Day 11: Fri., Sept. 26
      for an absorbing and transmitting gas using the thought experiment discussed in class.
      
 
+Week 5  9/29 - 10/3
+===================
+
+* Learning goals
+
+    - Link the absorption to molecular absorption lines, and 
+      introduce the hydrostatic equation and show how it combines with Beers law to set the level
+      of maxiumum absorption in the `Notes on Beers law`_
+   
+    - Derive the Schwartzchild equation for a constant temperature atmosphere in the `day 14 notes`_
